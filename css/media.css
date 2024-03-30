@@ -1,0 +1,119 @@
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  a {
+    display: none;
+  }
+  .hero-left h1 {
+    font-size: 30px;
+    line-height: 42px;
+    width: 303px;
+  }
+  .header-end button {
+    width: 88px;
+    height: 30px;
+    font-size: 11px;
+  }
+  .hero img {
+    width: 50%;
+  }
+  .btn1 {
+    width: 157px;
+    height: 30px;
+    font-size: 12px;
+    padding: 8px 0;
+  }
+  .hero-left p {
+    font-size: 15px;
+    line-height: 27.5px;
+    width: 310px;
+  }
+  .hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .btn2 {
+    width: 163px;
+    height: 61px;
+    font-size: 15px;
+  }
+  .about {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+  }
+  .about-info {
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .about-info h1 {
+    font-size: 30px;
+    line-height: 47px;
+    width: 365px;
+  }
+  .alpanasap-info h4 {
+    font-size: 20px;
+  }
+  .about img {
+    width: 50%;
+  }
+  .avatar {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .avatar img {
+    width: 100%;
+  }
+  .about-text {
+    font-size: 16px;
+  }
+  .icons {
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+  }
+  .block-box {
+    width: 840px;
+    height: 381px;
+  }
+  .block-box h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .block-box p {
+    font-size: 24px;
+  }
+  .block-box button {
+    width: 175px;
+    height: 49px;
+    font-size: 15px;
+  }
+  .mail {
+    gap: 30px;
+  }
+  .mail h1 {
+    font-size: 35px;
+  }
+  .button input {
+    width: 500px;
+    height: 79px;
+  }
+  .button input::placeholder {
+    font-size: 17px;
+    padding-left: 20px;
+  }
+  .mail button {
+    width: 180px;
+    height: 65px;
+    font-size: 18px;
+    right: 140px;
+    bottom: -1193px;
+  }
+}
