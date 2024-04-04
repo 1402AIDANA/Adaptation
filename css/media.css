@@ -2,7 +2,10 @@
   .container {
     width: 90%;
   }
-  a {
+  #header {
+    border-radius: 60px 60px 0 0;
+  }
+  .header a {
     display: none;
   }
   .hero-left h1 {
@@ -113,7 +116,22 @@
     width: 180px;
     height: 65px;
     font-size: 18px;
-    right: 140px;
-    bottom: -1193px;
+    right: 145px;
+    bottom: -1129px;
+  }
+  .footer a {
+    display: none;
+  }
+  #footer {
+    background: #f6f6f6;
+    border-radius: 0 0 60px 60px;
+  }
+}
+@media (max-width: 451px) {
+  .hero h1 {
+    font-size: 20px;
+  }
+  .btn2 {
+    display: none;
   }
 }

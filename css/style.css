@@ -32,11 +32,16 @@ body {
   font-size: 15px;
   font-weight: 500;
   color: white;
-  margin: 10px 15px;
+  margin: 10px 40px;
 }
-.nav {
+.nav a {
   display: flex;
   align-items: center;
+  display: block;
+  display: inline-block;
+}
+.nav a:hover {
+  border-block-end: 3px solid#C4C4C4;
 }
 .header-end {
   display: flex;
